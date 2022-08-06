@@ -4,6 +4,6 @@ Console.WriteLine("Input numbers delimited by spaces: ");
 
 int[] arr = Array.ConvertAll(Console.ReadLine().Trim().Split(' '),Convert.ToInt32);
 int maxValue = arr.Max();
-int minValue = arr.Min();
+//int minValue = arr.Min();
 
-Console.WriteLine("Min value: " + minValue + " max value: " + maxValue);
+Console.WriteLine("max value: " + maxValue);
