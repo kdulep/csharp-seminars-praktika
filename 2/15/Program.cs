@@ -3,7 +3,7 @@ do
 {
     Console.WriteLine("Input number");
     number = int.TryParse(Console.ReadLine(), out number) ? number : 0;
-} while (!(1<= number && number<= 7));
+} while (!(1 <= number && number <= 7));
 
 switch (number)
 {
